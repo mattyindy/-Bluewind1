@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float base;
+    float height;
+    float area;
+ 
+ 
+    printf("ฐานรูปนอก: ");
+    scanf("%f", &base);
+ 
+    printf("ฐานรูปใน: ");
+    scanf("%f", &height);
+    
+    area= (0.5 * base * height)-(0.5*(base*0.5)*(height*0.5));
+      
+    printf("\noutput %.2f \n\n", area);
+ 
+    return 0;
+}

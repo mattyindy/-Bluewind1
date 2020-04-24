@@ -1,0 +1,5 @@
+base = float(input("ฐานรูปนอก: "))
+height = float(input("ฐานรูปใน: "))
+area = (0.5 * base * height)-(0.5*(base*0.5)*(height*0.5));
+ 
+print("\noutput: %.2f" % area)
